@@ -1,0 +1,3 @@
+go build -gcflags="all=-N -l" -o linear_naive linear_naive.go
+
+go build -o linear_optimized linear_optimized.go

@@ -1,0 +1,11 @@
+* Install Python, Ruby, Go and C/C++ *
+
+sudo apt install python3 ruby golang gcc g++
+
+* Install pref *
+
+sudo apt install linux-perf
+
+* reduce restrictions *
+
+sudo sysctl -w kernel.perf_event_paranoid=1

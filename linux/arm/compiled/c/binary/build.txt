@@ -1,0 +1,3 @@
+gcc -O0 -o binary_naive binary.c
+
+gcc -O3 -o binary_optimized binary.c

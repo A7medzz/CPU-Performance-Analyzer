@@ -1,0 +1,3 @@
+go build -gcflags="all=-N -l" -o binary_naive binary_naive.go
+
+go build -o binary_optimized binary_optimized.go

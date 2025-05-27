@@ -1,0 +1,3 @@
+gcc -O0 -o sentinel_naive sentinel.c
+
+gcc -O3 -o sentinel_optimized sentinel.c

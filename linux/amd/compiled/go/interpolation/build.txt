@@ -1,0 +1,3 @@
+go build -gcflags="all=-N -l" -o interpolation_naive interpolation_naive.go
+
+go build -o interpolation_optimized interpolation_optimized.go
