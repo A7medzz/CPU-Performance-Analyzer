@@ -1,0 +1,3 @@
+go build -gcflags="all=-N -l" -o sentinel_naive sentinel_naive.go
+
+go build -o sentinel_optimized sentinel_optimized.go

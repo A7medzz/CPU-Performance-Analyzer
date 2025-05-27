@@ -1,0 +1,3 @@
+gcc -O0 -o interpolation_naive interpolation.c
+
+gcc -O3 -o interpolation_optimized interpolation.c

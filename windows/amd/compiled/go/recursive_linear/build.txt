@@ -1,0 +1,3 @@
+go build -gcflags="all=-N -l" -o recursive_linear_naive recursive_linear_naive.go
+
+go build -o recursive_linear_optimized recursive_linear_optimized.go
