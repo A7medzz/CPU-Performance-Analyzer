@@ -1,4 +1,0 @@
-perf stat -e instructions,cache-misses,branches,branch-misses ./linear_naive
-
-perf stat -e instructions,cache-misses,branches,branch-misses ./linear_optimized
-

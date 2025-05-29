@@ -1,3 +1,0 @@
-gcc -O0 -o recursive_linear_naive recursive_linear.c
-
-gcc -O3 -o recursive_linear_optimized recursive_linear.c

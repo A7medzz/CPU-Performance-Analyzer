@@ -1,3 +1,0 @@
-gcc -O0 -o jump_naive jump.c -lm
-
-gcc -O3 -o jump_optimized jump.c -lm

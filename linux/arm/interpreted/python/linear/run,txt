@@ -1,3 +1,0 @@
-perf stat -e cycles,instructions,cache-misses,branches,branch-misses python3 linear_naive.py
-
-perf stat -e cycles,instructions,cache-misses,branches,branch-misses python3 linear_opt.py
